@@ -1,0 +1,20 @@
+TD01
+
+Exercice 1. Point
+
+1- Cela marche car même si les attributs de la classe Point est privés, la méthode main se situe dans cette même classe. Il a donc un droit d'accès. En ce qui concerne le manque du constructeur, cela marche aussi car par il existe un constructeur par défaut.
+2- Dans la classe TestPoint, les attributs de l'objet Point ne sont pas reconnu. Logique car privée. Il faudra donc implémenter des getters dans la classe Point afin d'avoir accès aux informations/attributs de la classe.
+3- Les champs doivent restés privés par sécurisation. Nous ne voulions pas une modification inoppiné de la part d'une classe dont elle n'a pas les droits.
+4- Un accesseur est une methode qui permet d'acceder à l'information d'un attribut en tout sécurité. Oui, nous pouvons mettre un accesseur ici.
+5- Le constructeur par defaut n'est plus prioritaire. Le constructeur avec 2 paramètres est donc prioritaire. De ce fait, son appel au constructeur doit comprendre 2 paramètres.
+6- Rien, dans le constructeur j'ai bien pris soin de précisé et faire la différence entre le x de l'attribut et le x de l'entrée en paramètre par un this.
+7- Pour cela on peut créer un compteur de Point. A chaque appel au constructeur, on incrémente ce dernier.
+8- En précisant à gauche. entre this et p.
+9- Done
+
+Exercice 2. Egalité
+1- Il affiche true pour le premier et false pour le deuxieme. La raison est simple, le point p1 et p2 sont indéxés à un seul et même objet point. Alors que le point 3, bien que les attributs soient identitiques, p3 est un autre objet?
+2- Done
+3- Même observation que la question 1. p1 et p2 étant le même objet, la fonction indexOf trouvera le p2 même s'il n'est pas explicitement ajouté par la méthode Add. Le p3 étant un objet différent, il aurait fallu l'ajouter à la main.
+
+Exercie 3. Ligne brisée

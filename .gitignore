@@ -1,0 +1,11 @@
+.metadata/
+.recommenders/
+*.DS_Store
+.settings/
+.classpath
+.project
+/target/
+
+/bin/
+API_password.txt
+WSDL_access.txt
