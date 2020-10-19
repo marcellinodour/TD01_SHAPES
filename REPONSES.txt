@@ -18,3 +18,27 @@ Exercice 2. Egalité
 3- Même observation que la question 1. p1 et p2 étant le même objet, la fonction indexOf trouvera le p2 même s'il n'est pas explicitement ajouté par la méthode Add. Le p3 étant un objet différent, il aurait fallu l'ajouter à la main.
 
 Exercie 3. Ligne brisée
+1- Done
+2- Done, sans methode add le tableau risque d'être trop petit et l'ajout d'un point supplémentaire serait impossible car dépassement de capacité. Il faudra alonger avant de l'ajouter.
+3- Done
+4- Done
+5- Mettre null en argument ne sera pas possible.
+6- Done, Length n'a plus sa pertinence. Une LinkedList n'admet pas de limite de capacité.
+
+Exercice 4. Mutabilité et cercle
+1- je n'ai pas très bien compris la fonction translate, elle peut se définir par un déplacement du point.
+2- Done
+3- Done
+4- Done
+5- La translation du cercle c2 translate le premier car ils font références au même cercle. Pour l'éviter, rentrer deux point distinct lors d'une création d'un cerle.
+6- Done
+7- Done
+8- Done
+9- Done, je sais pas
+
+Exercice 5. Anneaux
+1- Oui
+2- Done
+3- Done
+4- le code toString fera référence à circle. et donc il n'y aura pas toutes les informations. Done
+5- 

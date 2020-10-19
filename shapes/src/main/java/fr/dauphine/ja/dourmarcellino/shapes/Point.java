@@ -8,13 +8,13 @@ public class Point {
 	public Point(int x, int y) {
 		this.x = x;
 		this.y = y;
-		this.nbPoint++;
+		Point.nbPoint++;
 	}
 	
 	public Point(Point p) {
 		this.x = p.getX();
 		this.y = p.getY();
-		this.nbPoint++;
+		Point.nbPoint++;
 	}
 	
 	public static int getNbPoint() {
@@ -47,6 +47,16 @@ public class Point {
 	@Override
 	public String toString() {
 		return "(" + this.x + "," + this.y + ")";
+	}
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
+	
+	public void translate(int dx, int dy) {
+		this.x = this.x + dx;
+		this.y = this.y + dy;
 	}
 
 	public static void main(String[] args) {
