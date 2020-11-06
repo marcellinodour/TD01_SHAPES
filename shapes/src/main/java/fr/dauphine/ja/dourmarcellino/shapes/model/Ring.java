@@ -1,6 +1,6 @@
-package fr.dauphine.ja.dourmarcellino.shapes;
+package fr.dauphine.ja.dourmarcellino.shapes.model;
 
-public class Ring extends Circle{
+public class Ring extends Circle implements Shape{
 	private Circle trouDuMilieu;
 
 	public Ring(Point p, int r, int r2) {

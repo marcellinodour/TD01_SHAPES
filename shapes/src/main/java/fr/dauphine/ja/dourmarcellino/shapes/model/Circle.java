@@ -1,6 +1,6 @@
-package fr.dauphine.ja.dourmarcellino.shapes;
+package fr.dauphine.ja.dourmarcellino.shapes.model;
 
-public class Circle {
+public class Circle implements Shape {
 	private Point centre;
 	private int rayon;
 	
@@ -44,5 +44,13 @@ public class Circle {
 			}
 		}
 		return false;
+	}
+
+	public void setX(int x) {
+		this.centre.setX(x);
+	}
+
+	public void setY(int y) {
+		this.centre.setY(y);		
 	}
 }

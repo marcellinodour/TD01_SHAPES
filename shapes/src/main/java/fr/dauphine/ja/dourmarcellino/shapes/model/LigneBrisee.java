@@ -1,8 +1,8 @@
-package fr.dauphine.ja.dourmarcellino.shapes;
+package fr.dauphine.ja.dourmarcellino.shapes.model;
 
 import java.util.LinkedList;
 
-public class LigneBrisee {
+public class LigneBrisee implements Shape {
 	private LinkedList<Point> tab;
 
 	public LigneBrisee() {
@@ -27,6 +27,14 @@ public class LigneBrisee {
 	
 	public boolean contains(Point p) {
 		return this.tab.contains(p);
+	}
+
+	public void setX(int x) {
+		this.tab.get(0).setX(x);
+	}
+
+	public void setY(int y) {
+		this.tab.get(0).setY(y);
 	}
 
 }

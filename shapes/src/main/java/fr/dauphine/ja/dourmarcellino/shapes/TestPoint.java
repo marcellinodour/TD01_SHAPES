@@ -2,6 +2,10 @@ package fr.dauphine.ja.dourmarcellino.shapes;
 
 import java.util.ArrayList;
 
+import fr.dauphine.ja.dourmarcellino.shapes.model.Circle;
+import fr.dauphine.ja.dourmarcellino.shapes.model.Point;
+import fr.dauphine.ja.dourmarcellino.shapes.model.Ring;
+
 public class TestPoint {
 
 	public static void main(String[] args) {

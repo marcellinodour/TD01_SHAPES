@@ -1,9 +1,17 @@
-package fr.dauphine.ja.dourmarcellino.shapes;
+package fr.dauphine.ja.dourmarcellino.shapes.model;
 
-public class Point {
+public class Point implements Shape {
 	private int x;
 	private int y;
 	private static int nbPoint;
+	
+	public void setX(int x) {
+		this.x = x;
+	}
+	
+	public void setY(int y) {
+		this.y = y;
+	}
 	
 	public Point(int x, int y) {
 		this.x = x;
@@ -59,9 +67,9 @@ public class Point {
 		this.y = this.y + dy;
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		Point p = new Point(1, 3);
 		System.out.println(p.x + " " + p.y);
-	}
+	}*/
 
 }
