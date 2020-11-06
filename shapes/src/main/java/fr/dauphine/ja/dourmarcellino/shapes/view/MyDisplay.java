@@ -9,7 +9,7 @@ import java.util.Observer;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import controller.MouseController;
+import fr.dauphine.ja.dourmarcellino.shapes.controller.MouseController;
 import fr.dauphine.ja.dourmarcellino.shapes.model.Circle;
 import fr.dauphine.ja.dourmarcellino.shapes.model.LigneBrisee;
 import fr.dauphine.ja.dourmarcellino.shapes.model.Point;

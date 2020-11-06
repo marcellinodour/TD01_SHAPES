@@ -1,4 +1,4 @@
-package controller;
+package fr.dauphine.ja.dourmarcellino.shapes.controller;
 
 import java.awt.Frame;
 import java.awt.event.MouseEvent;
